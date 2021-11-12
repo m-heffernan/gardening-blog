@@ -11,7 +11,7 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-32x32.png" />
         <meta name="description" content="Mike Heffernan personal blog" />
         <meta
           property="og:image"
@@ -27,7 +27,7 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/seedlings.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -65,6 +65,19 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      <footer className={styles.footer}>
+        <a href="https://www.instagram.com/wavertreefarm/" target="_blank">
+          Wavertree Farm{" "}
+          <span className={styles.instagram}>
+            <Image
+              src="/images/instagram.png"
+              height={20}
+              width={20}
+              alt="instagram"
+            ></Image>
+          </span>
+        </a>
+      </footer>
     </div>
   );
 }
