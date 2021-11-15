@@ -24,7 +24,7 @@ For this step I used a 5 gallon paint bucket I had laying around and filled it w
 
 ## Soaking in Bleach Solution
 
-![soaking trays](https://i.ibb.co/RS0FWzG/soaking-trays.png)
+![soaking trays](https://i.ibb.co/rbL0tFq/soaking-trays.png)
 
 After cleaning the trays initially I repurposed the 5 gallon paint bucket for the bleach solution. The recipe was a simple 9 parts water with one part bleach.
 
