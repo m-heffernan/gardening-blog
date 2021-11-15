@@ -1,7 +1,6 @@
 ---
 title: "Cleaning Seedling Trays "
 date: "2021-11-14"
-image: "public/images/soaking-trays.png"
 ---
 
 # Why Clean Seedling Trays
@@ -24,8 +23,6 @@ I didn't love the idea of using bleach but I had done it in the past and the eas
 For this step I used a 5 gallon paint bucket I had laying around and filled it with soap and water. The soap I used was Dr. Bronner's pure-castille soap which I still had a bunch leftover from dealing with an aphid problem in the Spring. To get tough soil residue off I grabbed a toothbrush.
 
 ## Soaking in Bleach Solution
-
-<img src={post.frontmatter.image} />
 
 ![soaking trays](https://i.ibb.co/RS0FWzG/soaking-trays.png)
 
