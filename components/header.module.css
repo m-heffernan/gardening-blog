@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 1rem calc(0.25rem + 9px) 2rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  padding: 1.5rem;
+  font-size: 30px;
+}
+
+.header a:hover {
+  text-decoration-line: underline;
+  color: black;
+}
