@@ -1,0 +1,34 @@
+[
+    {
+      "id": "price_1IPTR9AsPe3oTF3pKvkY8Erd",
+      "name": "Dill",
+      "description": "Make your own pickles",
+      "image": "/images/dill.jpg",
+      "amount": 200,
+      "currency": "USD"
+    },
+    {
+      "id": "price_1IPTRGAsPe3oTF3psKK0OWoG",
+      "name": "Basil",
+      "description": "Great on your homemade pizza",
+      "image": "/images/basil.jpg",
+      "amount": 200,
+      "currency": "USD"
+    },
+    {
+      "id": "price_1IPTR1AsPe3oTF3prZn0P4He",
+      "name": "Tomato",
+      "description": "A summer classic that can't be missed",
+      "image": "/images/tomato.jpg",
+      "amount": 300,
+      "currency": "USD"
+    },
+    {
+      "id": "price_1IPTQqAsPe3oTF3pzACJXPgd",
+      "name": "Mini Head Lettuce",
+      "description": "Perfect size for the week",
+      "image": "/images/mini-head-lettuce.jpg",
+      "amount": 100,
+      "currency": "USD"
+    }
+  ]

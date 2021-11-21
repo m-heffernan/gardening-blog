@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
+import Footer from "../components/footer";
 
 const name = "Mike Heffernan";
 export const siteTitle = "Mike Heffernan Blog";
@@ -65,19 +66,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-      <footer className={styles.footer}>
-        <a href="https://www.instagram.com/wavertreefarm/" target="_blank">
-          Wavertree Farm{" "}
-          <span className={styles.instagram}>
-            <Image
-              src="/images/instagram.png"
-              height={20}
-              width={20}
-              alt="instagram"
-            ></Image>
-          </span>
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
