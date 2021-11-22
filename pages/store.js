@@ -2,6 +2,7 @@ import { siteTitle } from "../components/layout";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/store.module.css";
+import { initiateCheckout } from "../lib/payments";
 import { Fragment } from "react";
 import { useState, useEffect } from "react";
 
@@ -37,6 +38,17 @@ export default function Store() {
   function emptyCart() {
     setCart([]);
     window.localStorage.setItem("shopping-cart", JSON.stringify([]));
+  }
+
+  function checkout() {
+    initiateCheckout({
+      lineItems: cart.map((item) => {
+        return {
+          price: item.price,
+          quantity: item.quantity,
+        };
+      }),
+    });
   }
 
   return (
@@ -153,7 +165,7 @@ export default function Store() {
                   currency: "usd",
                 })}
               </p>
-              <button>Check Out</button>
+              <button onClick={checkout}>Check Out</button>
               <p className={styles.emptyCart}>
                 <button onClick={emptyCart}>empty cart</button>
               </p>
