@@ -1,5 +1,5 @@
 ---
-title: "Cleaning Seedling Trays "
+title: "Cleaning Seedling Trays"
 date: "2021-11-14"
 ---
 

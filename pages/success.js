@@ -1,9 +1,11 @@
 import Confetti from "react-confetti";
 import { siteTitle } from "../components/layout";
 import Head from "next/head";
+import Image from "next/image";
 import { Fragment } from "react";
 import styles from "../styles/success.module.css";
 import { useState, useEffect } from "react";
+import "animate.css";
 
 export default function Success() {
   const [width, setWidth] = useState(0);
@@ -38,6 +40,11 @@ export default function Success() {
           <p className={styles.description}>
             We have successfully processed your payment!
           </p>
+          <img
+            className="animate__animated animate__rotateInDownRight"
+            src="/images/watering-plants.png"
+            alt="animated plant"
+          />
         </main>
       </div>
     </Fragment>

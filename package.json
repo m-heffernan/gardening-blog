@@ -8,7 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.6.0",
     "@stripe/stripe-js": "^1.21.1",
+    "animate.css": "^4.1.1",
     "date-fns": "^2.25.0",
     "gray-matter": "^4.0.3",
     "next": "^11.0.0",
